@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Login | Flowbiz Exports Pvt. Ltd.</title>
+  <link rel="icon" href="images/logo.svg">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header" id="site-header"></header>
+
+  <section class="block alt">
+    <div class="container">
+      <div class="form-wrap">
+        <h2>Login</h2>
+        <form data-api="/api/auth/login" data-redirect="index.html">
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" required>
+          <label for="password">Password</label>
+          <input id="password" name="password" type="password" required>
+          <button class="btn" type="submit">Login</button>
+          <div class="msg"></div>
+        </form>
+        <p class="form-note">New here? <a href="register.html">Create an account</a></p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer" id="site-footer"></footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
